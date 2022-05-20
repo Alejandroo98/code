@@ -1,0 +1,28 @@
+Temas puntuales de la sección
+Nota:
+Si tienes funcionando React Native usando el CLI, puedes saltarte la sección, todo lo que haremos aquí es para configurar el ambiente de desarrollo en Windows y Mac OSX.
+
+
+
+Configuraremos los equipos virtuales y todo lo necesario para empezar una nueva aplicación de React Native.
+
+
+=========== INDICACIONES ==============
+************* TODAS LAS INTALACIONES NECESARIOS **************
+   - Usaremos Chocolatey en lugar de npm ( https://chocolatey.org/install )
+   - Desde la consola powersell como administrador ejecutas -> Set-ExecutionPolicy AllSigned 
+   - Luego ejecutas -> Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object   System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+   - Luego -> choco install -y nodejs.install openjdk8
+   - Tienes que seguir los pasos que dicen en la documentacion, entre ellos abrir andorid studio y descargar el SDK ( https://reactnative.dev/docs/environment-setup ) 
+   - Crear una nueva vairalble de entorno ( panel de control/cuentas de usuario/cuentas de usuario/variables de entorno )->  nombre: ANDOIRD_HOME, valor : C:\Users\USER\AppData\Local\Android\Sdk 
+   - Comprueba que existe la variable que creaste en la powersell -> Get-ChildItem -Path Env:\
+   - Igual en las variables de entorno le das en path y agregas la misma ruta -> C:\Users\USER\AppData\Local\Android\Sdk
+	 **Todo esta en el enlcae que te deje arriba**
+
+
+    ********************** CREAR EMULADOR VIRTUAL ****************
+    - En la pantallita del android estudio antes de crear el proyecto en la esquina superior en configure le das a AVD ServicePointManager
+    - En phone puedes eleguir cualquiera, no es muy importante en este caso eleguimos el Piexel 4l
+    - Luego nexxt y finish, luego en la flechita para inicializarlo
+    - En este enlace estan los comandos que tenemos que ejecutar desde la consola -> https://gist.github.com/Klerith/89d5288dec7ff254913453d26a63e981
+    - Comando para iniciar la app -> npx react-mative run-android

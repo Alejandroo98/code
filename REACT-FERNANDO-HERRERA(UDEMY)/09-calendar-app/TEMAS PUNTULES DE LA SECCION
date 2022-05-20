@@ -1,0 +1,33 @@
+============== SECCION 23 ( 18-07-2021 / 17:49 ) =================
+
+Enlace del repo del profe ( Fin de la seccion: 19-07-2021 / 21:00 ) -> https://github.com/Klerith/MERN-Calendar-Front/releases/tag/v1.0.0
+
+Temas puntuales de la sección
+
+¿Qué veremos en esta sección?
+
+Estructura y diseño de nuestra aplicación de Calendario
+
+Uso de componentes de terceros
+
+Modals
+
+Configuración de Redux
+
+CRUD local
+
+Preparación de pantallas para futuras secciones
+
+Uso de MomentJS
+
+Manejo de fechas
+
+Esta sección es el inicio de nuestro MERN, (Mongo Express React Node), luego crearemos nuestro backend y después regresaremos a esta app para conectarla y desplegarla en producción
+
+•• INDICACIONES ••
+\*Instalaciones necesarias - npm install react-router-dom - npm i react-big-calendar ( https://jquense.github.io/react-big-calendar/examples/index.html#api ) - npm install --save react-modal ( https://www.npmjs.com/package/react-modal ) - npm i react-datetime-picker ( https://www.npmjs.com/package/react-datetime-picker ) - npm i sweetalert2 - npm install react-redux ( https://react-redux.js.org/introduction/getting-started ) - npm install --save redux-thunk ( https://es.redux.js.org/ ) -> Esto es para realizar las peticiones azyncornas - npm i redux
+
+    *Enlaces que visitamos
+        - Para iconos -> https://cdnjs.com/libraries/font-awesome
+
+================ \*FIN SECCION 23 ===============

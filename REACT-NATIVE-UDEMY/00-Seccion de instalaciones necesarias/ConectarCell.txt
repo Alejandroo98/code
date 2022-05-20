@@ -1,0 +1,7 @@
+===== LO QUE HAREMOS ES CONECTAR EL TELEONO MOVIL PARA PODER VER LOS CAMBIOS AHI =====
+
+1. Crear unna nueva variable de entorno, en el path agregas uno nuevo ->  C:\Users\USER\AppData\Local\Android\Sdk\platform-tools
+2. Desde la consola escribes -> adb devices   ( Esto es solo poder ver tu dispositivo conectado )
+3. Ahora lo que haremos es ingresar hacia la carpeta de tu proyecto con cd.
+* Documentacions -> https://reactnative.dev/docs/running-on-device
+3. una ves ubicados en la ubicacion de tu proyecto ingresas -> npx react-native run-android

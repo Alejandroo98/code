@@ -1,0 +1,21 @@
+•  PARA CREAR UN NUEVO PROYECTO DE LARAVEL -> composer create-project laravel/laravel example-app
+•  PARA ALZAR EL SERVIDOR -> php artisan serve
+•  PARA INSTALAR LOS PAQUETES NECESARIOS -> composer install
+•  BORRAR TODAS LAS TABLAS Y LS VUELVE A CREAR -> php artisan migrate:fresh
+•  CREAR UNA MIGRACIÓN -> php artisan make:migration create_products_table
+•  PARA PASAR LAS MIGRACIONES ( TABLAS ) A LA BASE DE DATOS REAL -> php artisan migrate
+•  PARA VER EL ESTADO DE MIS MIGRACIONES ( TABLAS ) A LA BASE DE DATOS REAL -> php artisan migrate:status
+•  HACER UN ROLLBACK AL INICIO -> php artisan migrate:reset
+•  PARA HACER UN ROLLBACK ( TABLAS ) A LA BASE DE DATOS REAL -> php artisan migrate:rollback  ( --step=5 -> esto es para especificar el nro de pasos hacia atras que quieres dar, no es obligatorio, si no lo pones ira de uno en uno )
+• CREAR UNA TABLA DONDE SE RELACIONEN DOS, DE MUCHOS A MUCHOS, ( TABLAS PIBOTE ) -> php artisan make:migration create_category_product_table -> nombres en singular, en ingles y en orden alfabético. ( Nombres de ambas tablas )
+• CREAR MODELS -> php artisan make:model NombreTabla ( en ingles, en singular )
+• CREAR FACTORY -> php artisan make:factory NombreTabla ( en ingles, en singular )
+• CREAR SEEDERS -> php artisan migrate:fresh --seed
+• CREAR CONTROLADORES MAS METODOS -> php artisan make:controller NombreControladorEnPlural --api
+==================================
+//*****CONVENCIONES*****\\\\\\\
+
+• El nombre de las tablas tienen que ir en ingles y en plural
+• El nombre de los campos en singular y en ingles
+• El nombre de los foreignId deben seguir este esquema -> nombreCampoEnSingularEIngles_id -> ejemplo -> category_id
+

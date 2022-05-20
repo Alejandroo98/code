@@ -1,0 +1,2 @@
+1 Instala la libreria -> npm install --save react-native-push-notification
+2 Ejecuta -> 

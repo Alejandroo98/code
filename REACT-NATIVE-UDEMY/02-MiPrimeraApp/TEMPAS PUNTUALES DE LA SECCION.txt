@@ -1,0 +1,57 @@
+=============== SECCION 4 ( 21-07-2021  / 20:42 ) ===============
+
+• Fin de la seccion ( 21-07-2021 / 23:21 )
+   - Enlace del repo -> https://github.com/Klerith/RN-HolaMundo-Contador/releases/tag/v0.4.0
+
+
+Temas puntuales de la sección
+En esta sección veremos temas sobre:
+
+Hola Mundo en React Native
+
+Cambios en el State
+
+Contador
+
+Re-utilización de componentes
+
+Pantallas
+
+Componentes personalizados
+
+Stylesheet
+
+Envío de argumentos a componentes
+
+Tipando props
+
+•• INDICACIONES
+
+     - Para crear la app -> npx react-native init AwesomeTSProject --template react-native-template-typescript
+     - Para iniciar la app ->  npx react-native run-android
+
+
+============== *FIN SECCION 4 ==============
+============== SECCION 5 ( 22-07-2021 / 09:08 AM ) ==============
+
+ • Fin de la seccion ( 22-07-2021 / 16:12  )
+   - Enlace del repo -> https://www.udemy.com/course/react-native-fh/learn/lecture/25275422#questions
+
+Temas puntuales de la sección
+En esta sección nos enfocaremos principalmente en comprender los 3 bloques principales para el diseño de aplicaciones en React Native:
+
+Box Object Model
+
+Position
+
+Flex Layout
+
+Entraremos en detalles en cada uno de estos tres bloques de diseño para poder sentir que tenemos la libertad necesaria para crear los diseños funcionales que queramos.
+
+
+=== PARA AGREGAR UN NUEVO SNIPPET =====
+   - crl + shift + p  buscas -> user snippet y luego escribes -> reacttypescript,
+   - luego lo agregas aahi, nosotros agregamos el del profe que esta en este enlace -> https://gist.github.com/Klerith/ed5675a477d08ade69f23eaafd75a6d1
+
+
+============== * FIN SECCION 5 ==============
